@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    text-align: center;
+    color: 262626;
+    font-family: sans-serif;
+}
+
+h1{
+    padding: 30px;
+}
+
+.container{
+    background-color: rgb(110, 101, 13);
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #0000;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px 0;    
+}
+
+.izquierdo{
+    width: 70%;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.derecha{
+    width: 30%;
+}
+
+.msj{
+    font-size: 40px;
+    height: 50px;
+}
+
+.opcion{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(248, 239, 239, 0);
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcion:hover{
+    background-color: cadetblue;
+}
+
+  body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://static3.abc.es/media/ciencia/2019/02/01/AdobeStock_162417593-kASF--620x349@abc.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+}
