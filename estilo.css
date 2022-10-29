@@ -63,6 +63,6 @@ h1{
   body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background: url("https://static3.abc.es/media/ciencia/2019/02/01/AdobeStock_162417593-kASF--620x349@abc.jpg") no-repeat center center fixed;
+    background: url(/juegodesumar/imagenes/img-matematicas.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
 }
