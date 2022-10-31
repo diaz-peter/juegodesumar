@@ -1,51 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     background-image: url("imagenes/img-matematicas.jpg");
-    
+
 }
 
-h1{
+h1 {
     padding: 60px;
-    color:black;
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.container{
-    background-color:burlywood;
+.container {
+    background-color: burlywood;
     max-width: 700px;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 2px solid #0000;
     border-radius: 20px;
     display: flex;
-    padding: 50px 0;    
+    padding: 50px 0;
 }
 
-.izquierdo{
+.izquierdo {
     width: 70%;
     font-size: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.derecha{
+.derecha {
     width: 30%;
 }
 
-.msj{
+.msj {
     font-size: 60px;
     height: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.opcion{
+.opcion {
     width: 80px;
     height: 80px;
     border: 1px solid rgba(248, 239, 239, 0);
@@ -60,7 +60,6 @@ h1{
     align-items: center;
 }
 
-.opcion:hover{
+.opcion:hover {
     background-color: cadetblue;
 }
-

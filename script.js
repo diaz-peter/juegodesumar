@@ -61,16 +61,16 @@ function controlarRespuesta(opcionElegida) {
 
     // Controlamos si esta bien
     if (respuesta == opcionElegida.innerHTML) {
-        txt_msj.innerHTML = "EXCELENTE!!!!";
+        txt_msj.innerHTML = "Excelente!";
         txt_msj.style.color = "blue";
         // Esperamos dos segundos y volvemos a llamar a la funcion comenzar
         setTimeout(comenzar, 2000);
     } else {
-        txt_msj.innerHTML = "INTENTA DE NUEVO!!!!";
+        txt_msj.innerHTML = "Intenta de nuevo!";
         txt_msj.style.color = "red";
         // Esperamos dos segundos y limpiamos los campos
         setTimeout(limpiar, 2000);
-    }
+    }F
 
 
 }
