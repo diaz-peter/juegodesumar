@@ -6,8 +6,7 @@
 
 body {
     text-align: center;
-    background-image: url("imagenes/img-matematicas.jpg");
-
+    background-color: rgba(107, 99, 99, 0.442);
 }
 
 h1 {
@@ -17,14 +16,15 @@ h1 {
 }
 
 .container {
-    background-color: burlywood;
+    background-color: rgba(107, 99, 99, 0.442);
     max-width: 700px;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 2px solid #0000;
-    border-radius: 20px;
+    border-color: chartreuse;
+    border: 5px solid;
+    border-radius: 15px;
     display: flex;
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 .izquierdo {
